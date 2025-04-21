@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from "react";
 import Image from 'next/image';
 import CopyIcon from './copyicon.png';
 
-export default function notepad() {
+export default function Notepad() {
     const editorRef = useRef(null);
     const [copied, setCopied] = useState(false);
     const [text, setText] = useState('')

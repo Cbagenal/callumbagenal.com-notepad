@@ -1,9 +1,7 @@
-import RichTextEditor from './RichTextEditor';
+import RichTextEditor from '../components/RichTextEditor';
 
-export default function Home(){
-  return(
-    <div>
-      <RichTextEditor />
-    </div>
-  )
+export default function Home() {
+  return (
+    <RichTextEditor />
+  );
 }

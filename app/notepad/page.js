@@ -1,4 +1,4 @@
-import RichTextEditor from '../app/components/RichTextEditor';
+import RichTextEditor from './RichTextEditor';
 
 export default function Home(){
   return(
